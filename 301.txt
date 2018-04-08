@@ -2,24 +2,3 @@
 # Make sure you always include a trailing slash for directory links
 # (ie: links without file extentsion like .html, .htm, .php) for these redirects (old and new).
 # /old_file/ /new_file/
-
-/about/ /company/
-/careers/ /company/careers/
-/careers/* /company/careers/
-/careers/deployment-engineering-intern/ /company/careers/deployment-engineering-intern/
-/careers/iot-engineer/ /company/careers/iot-engineer/
-/careers/product-manager/ /company/careers/product-manager/
-/careers/water-resources-engineering-intern/ /company/careers/water-resources-engineering-intern/
-/cmac-at-scale/ /
-/events/ /company/events/
-/legal-and-security/ /legal-and-security/terms-of-use/platform/
-/legal-and-security/terms-of-use/ /legal-and-security/terms-of-use/platform/
-/news/ /company/news/
-/press-kit/ /resources/
-/products/cumulus/ /products/
-/products/nimbus/ /products/
-/products/stratus/ /products/
-/request/ /contact/sales/
-/request/* /contact/sales/
-/team/ /company/team/
-/terms-of-service/ /legal-and-security/terms-of-use/platform/
