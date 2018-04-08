@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie9 lt-ie8 ie7" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js ie8" lang=""> <![endif]-->
+<!--[if IE 9]>         <html class="no-js ie9" lang=""> <![endif]-->
+<!--[if gt IE 9]> <html class="no-js ie9+" lang=""> <![endif]-->
+{% include head.html page_title=page.search_engine_optimization.page_title page_description=page.search_engine_optimization.page_description share_image_path=page.search_engine_optimization.share_image_path url=page.url layout=page.layout %}
+<body class=" {% if page.is_post %}post{% endif %} {{ page.url | slugify }} {% if page.body_class %}{{page.body_class}}{% endif %} {% if layout.body_class %}{{layout.body_class}}{% endif %}">
+  {% include_cached browserupgrade.html %}
+  <div class="header-wrapper clearfix">
+    {% include_cached header.html group=page.group url=page.url %}
+  </div>
+  
+  <div class="main-wrapper clearfix">
+    {{ content }}
+  </div>
+  
+  <div class="footer-wrapper clearfix">
+    {% include_cached footer.html %}
+  </div>
+  {% include_cached scripts.html layout=page.layout google_analytics_tracking_id=site.google_analytics_tracking_id %}
+</body>
+</html>
