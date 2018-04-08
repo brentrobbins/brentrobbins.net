@@ -397,7 +397,7 @@ ul.pager li a:visited {
   margin-bottom: 2em;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .cols {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -419,7 +419,7 @@ ul.pager li a:visited {
   margin: 2em 0;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .cols-2 .col {
     width: 45%;
   }
@@ -428,7 +428,7 @@ ul.pager li a:visited {
   width: 45%;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .cols-3 .col {
     width: 30%;
   }
@@ -437,7 +437,7 @@ ul.pager li a:visited {
   width: 30%;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .cols-4 .col {
     width: 22%;
   }
@@ -465,8 +465,9 @@ body.front main.content {
           box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding: 2.5rem 4rem;
+  border-radius: 2px;
 }
-@media (min-width: 0) and (max-width: 37.5em) {
+@media (min-width: 0) and (max-width: 56.25em) {
   body.front main.content {
     padding: 1.5rem 1rem;
     margin: 20px 1rem;
@@ -528,10 +529,26 @@ body.front main.content .title h1 {
   font-size: 2.6rem;
   line-height: 1;
 }
+@media (min-width: 0) and (max-width: 37.5em) {
+  body.front main.content .title h1 {
+    font-size: 2.3rem;
+  }
+}
+.no-mq body.front main.content .title h1 {
+  font-size: 2.3rem;
+}
 body.front main.content .title h2 {
   margin: 0 0 .15rem 0;
   font-size: 1.4rem;
   color: #989898;
+}
+@media (min-width: 0) and (max-width: 37.5em) {
+  body.front main.content .title h2 {
+    font-size: 1.3rem;
+  }
+}
+.no-mq body.front main.content .title h2 {
+  font-size: 1.3rem;
 }
 body.front main.content .title p {
   margin: 0;
@@ -602,10 +619,12 @@ body.front .icon-list {
 @media (min-width: 0) and (max-width: 37.5em) {
   body.front .icon-list {
     text-align: center;
+    margin: 1rem 0 0 0;
   }
 }
 .no-mq body.front .icon-list {
   text-align: center;
+  margin: 1rem 0 0 0;
 }
 body.front .icon-list li {
   display: inline-block;
@@ -655,7 +674,7 @@ html body {
   display: table;
   clear: both;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   .wrap {
     padding: 0;
   }
@@ -719,7 +738,7 @@ form .form-super-group:after {
 form .form-group {
   margin-top: .5rem;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   form .left {
     width: 47.82609%;
     float: left;
@@ -735,7 +754,7 @@ form .form-group {
   margin-left: 0;
   clear: none;
 }
-@media (min-width: 50em) {
+@media (min-width: 56.25em) {
   form .right {
     width: 47.82609%;
     float: right;
