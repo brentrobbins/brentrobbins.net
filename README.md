@@ -1,4 +1,4 @@
-# Opti V2 Website
+# Brent Robbins Website
 
 # Setup OS with correct versions of Node and Ruby
 

@@ -11,7 +11,6 @@ uploads_dir: "assets/images"
 
 # Gems for plugins
 plugins:
-  - jekyll-paginate-v2 # Needed to add paginate on Jekyll ver 3+
   - jekyll-sitemap # Simple jekyll plugin that creates a sitemap.xml file and you can exclude files by adding 'sitemap:false' to the frontmatter of any file(s).
   - jekyll-include-cache # Cache jekyll includes to improve build times
 
@@ -28,20 +27,6 @@ compress_html:
   blanklines: false
   profile: true
   startings: [html, head, body]
-
-# Pagination V2 Settings: https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-pagination:
-  enabled: false
-  per_page: 4
-  #permalink: '/news/:num/'
-  title: ':title - page :num'
-  limit: 0
-  sort_field: 'title'
-  #sort_reverse: false
-  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
-  debug: true
-  # The default document collection to paginate if nothing is specified ('news' is default)
-  collection: 'posts'
 
 #Collections
 collections:
