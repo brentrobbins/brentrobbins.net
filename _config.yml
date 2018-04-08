@@ -2,7 +2,7 @@
 title: "Brent Robbins"
 description: ""
 baseurl: "" # the subpath of your site, e.g. /blog/ - keep empty!
-url: "" # the base hostname & protocol for your site - don't include the forward slash
+url: "https://brentrobbins.net" # the base hostname & protocol for your site - don't include the forward slash
 version: "3.7.1" # the version of jekyll
 #site_id: "22551"
 
