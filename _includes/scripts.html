@@ -2,13 +2,9 @@
 <script src="/assets/js/prod/scripts.js"></script>
 
 {% if include.google_analytics_tracking_id %}
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_tracking_id }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ site.google_analytics_tracking_id }}');
+var galite = galite || {};
+galite.UA = '{{ site.google_analytics_tracking_id }}'; 
 </script>
-
 {% endif %}
