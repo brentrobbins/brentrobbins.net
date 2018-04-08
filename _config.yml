@@ -68,7 +68,7 @@ _comments:
   share_image_path: "The social share image needs to be at least 1200x1200px and if not that exact same size CloudCannon will scale and crop it to 1200x1200."
 
 # Google Analytics 
-google_analytics_tracking_id: 
+google_analytics_tracking_id: 'UA-80029-52'
 
 exclude: [
   "Gemfile",
