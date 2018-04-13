@@ -13,6 +13,7 @@ var gulp = require('gulp'),
   express = require('express'),
   fs = require('graceful-fs'),
   https = require('https'),
+  gzip = require('gulp-gzip'),
   path = require('path');
 
 // var messages = {
@@ -28,6 +29,14 @@ gulp.task('jekyll-build', function (done) {
     stdio: 'inherit'
   }).on('close', done);
 });
+
+
+gulp.task('gzip-icons', function() {
+  gulp.src('./assets/images/icons/*.svg')
+    .pipe(gzip({ append: false }))
+    .pipe(gulp.dest('./assets/images/icons/'));
+});
+
 
 /**
  * Rebuild Jekyll & do page reload
