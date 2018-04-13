@@ -43,6 +43,7 @@
     "gulp-clean-css": "^3.9.3",
     "gulp-cli": "^2.0.1",
     "gulp-compass": "^2.1.0",
+    "gulp-gzip": "^1.4.2",
     "gulp-plumber": "^1.2.0",
     "gulp-uglify": "^3.0.0",
     "https": "^1.0.0",
