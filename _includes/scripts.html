@@ -1,5 +1,18 @@
-<script src="/assets/js/prod/modernizr-2.8.3.min.js"></script>
+<!--<link rel="stylesheet" href="/assets/css/style.css" media="screen">-->
 
+<!-- preload stylesheet resource via declarative markup -->
+<link rel="preload" href="/assets/css/style.css" as="style">
+<!-- or, preload stylesheet resource via JavaScript -->
+<script>
+var res = document.createElement("link");
+res.rel = "preload";
+res.as = "style";
+res.href = "/assets/css/style.css";
+document.head.appendChild(res);
+</script>
+
+
+<script src="/assets/js/prod/modernizr-2.8.3.min.js"></script>
 <script type="text/javascript" src="/assets/js/prod/zepto.1.2.0.min.js"></script>
 <script src="/assets/js/prod/scripts.js"></script>
 
