@@ -537,6 +537,9 @@ body.front main.content .title h1 {
 .no-mq body.front main.content .title h1 {
   font-size: 2.3rem;
 }
+body.front main.content .title h1 span {
+  font-weight: bold;
+}
 body.front main.content .title h2 {
   margin: 0 0 .15rem 0;
   font-size: 1.4rem;
