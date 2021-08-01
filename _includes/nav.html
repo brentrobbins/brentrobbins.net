@@ -1,4 +1,0 @@
-{% assign navurl = page.url | remove: 'index.html' %}
-<ul class="menu">{% for item in include.nav %}
-	<li><a href="{{ item.url }}"{% if include.group == item.group %}class="active"{% endif %}>{{ item.text }}</a>{% if item.subitems %}{% include_cached nav.html nav=item.subitems %}{% endif %}</li>{% endfor %}
-</ul>

@@ -1,9 +1,7 @@
----
-sitemap: false
----
-
 User-agent: *
-{% for page in site.pages %}{% if page.sitemap == false %}{% assign isset = true %}Disallow: {{ page.url }}
-{% endif %}{% endfor %}{% if isset != true %}Disallow:
-{% endif %}
-Sitemap: {{ site.url }}/sitemap.xml
+Disallow: /404.html
+Disallow: /googlefea4ee958300b80b.html
+Disallow: /.well-known/acme-challenge/2WJE7WtZxbNYYmMtfSLrBNjkIp7w3gOGa5Du6NJM2Os/index.html
+Disallow: /robots.txt
+
+Sitemap: https://brentrobbins.net/sitemap.xml
